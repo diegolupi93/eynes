@@ -121,7 +121,7 @@ def getSequences(matriz, l_sequence):
         print(result)
     return result
 if __name__ == "__main__":
-    matriz = generateMatriz((5,4), (1,5))
+    matriz = generateMatriz((5,5), (1,5))
     sample = getSequences(matriz, 4)
     import doctest
     doctest.testmod()
